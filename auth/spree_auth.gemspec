@@ -20,4 +20,5 @@ Gem::Specification.new do |s|
   s.add_dependency('spree_core',  version)
   s.add_dependency('devise', '= 1.3.3')
   s.add_dependency('cancan', '= 1.6.4')
+  s.add_dependency('devise_cas_authenticatable')
 end
